@@ -1,7 +1,7 @@
 defmodule Todo.Verify do
   defmodule IncompleteRequestError do
     @moduledoc """
-    Something is missing in your request.
+    If this triggers some requested fields are missing.
     """
     defexception message: "", plug_status: 400
   end

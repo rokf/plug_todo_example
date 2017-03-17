@@ -7,6 +7,7 @@ defmodule Todo.Router do
   plug :match
   plug :dispatch
 
+  # root path, currently pointless
   get "/" do
     send_resp(conn, 200, "Root Route")
   end
