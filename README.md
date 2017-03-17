@@ -1,19 +1,5 @@
-# PlugTodoExample
+# Plug TODO Example
 
-**TODO: Add description**
+Example Elixir Plug web server where a GenServer manages a TODO list and Plug communicates with it.
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `plug_todo_example` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [{:plug_todo_example, "~> 0.1.0"}]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/plug_todo_example](https://hexdocs.pm/plug_todo_example).
-
+Work in progress. Need to write comments and clean up stuff, works otherwise.
